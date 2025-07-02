@@ -1,0 +1,12 @@
+[package]
+name = "bootnext"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["ubuntu"]
+windows = []
+ubuntu = []
+
+[dependencies]
+efivar = "2.0.0"
